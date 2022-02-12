@@ -1,0 +1,25 @@
+bot:
+  name: ${BOt_NAME}
+  token: ${BOt_TOKEN}
+  commands:
+    - /help
+    - /start
+    - /stop
+    - /getsettings
+    - /setsettings
+    - /setdefaultsettings
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/imager_bot
+    username: imager
+    password: imager
+
+  jpa:
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+    hibernate:
+      ddl-auto: update
+
