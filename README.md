@@ -1,3 +1,6 @@
 # Imager Telegram Bot
+###Bot for convert text to image!
 
-https://t.me/TextToImageConverterSuperBot
+[@TextToImageConverterSuperBot](https://t.me/TextToImageConverterSuperBot)
+
+
