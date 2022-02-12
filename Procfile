@@ -1,1 +1,1 @@
-worker: java -jar build/libs/imager-0.0.1-SNAPSHOT.jar
+worker: java -jar target/imager-0.0.1-SNAPSHOT.jar
